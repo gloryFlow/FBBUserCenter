@@ -13,6 +13,8 @@
 		92FC671D1F1F3340009861F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FC671B1F1F3340009861F1 /* Main.storyboard */; };
 		92FC671F1F1F3340009861F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FC671E1F1F3340009861F1 /* Assets.xcassets */; };
 		92FC67221F1F3340009861F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FC67201F1F3340009861F1 /* LaunchScreen.storyboard */; };
+		92FC67501F1F39EE009861F1 /* UserHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC674F1F1F39EE009861F1 /* UserHomePageViewController.m */; };
+		92FC67531F1F3A10009861F1 /* UserHomePageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC67521F1F3A10009861F1 /* UserHomePageModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		92FC671E1F1F3340009861F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92FC67211F1F3340009861F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92FC67231F1F3340009861F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FC674E1F1F39EE009861F1 /* UserHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHomePageViewController.h; sourceTree = "<group>"; };
+		92FC674F1F1F39EE009861F1 /* UserHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHomePageViewController.m; sourceTree = "<group>"; };
+		92FC67511F1F3A10009861F1 /* UserHomePageModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHomePageModule.h; sourceTree = "<group>"; };
+		92FC67521F1F3A10009861F1 /* UserHomePageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHomePageModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 		92FC674D1F1F33CC009861F1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				92FC674E1F1F39EE009861F1 /* UserHomePageViewController.h */,
+				92FC674F1F1F39EE009861F1 /* UserHomePageViewController.m */,
+				92FC67511F1F3A10009861F1 /* UserHomePageModule.h */,
+				92FC67521F1F3A10009861F1 /* UserHomePageModule.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -161,6 +171,8 @@
 				92FC671A1F1F3340009861F1 /* ViewController.m in Sources */,
 				92FC67171F1F3340009861F1 /* AppDelegate.m in Sources */,
 				92FC67141F1F3340009861F1 /* main.m in Sources */,
+				92FC67531F1F3A10009861F1 /* UserHomePageModule.m in Sources */,
+				92FC67501F1F39EE009861F1 /* UserHomePageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +329,7 @@
 				92FC67281F1F3340009861F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
