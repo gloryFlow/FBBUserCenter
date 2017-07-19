@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FBBUserCenter"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "FBBUserCenter用户模块工程"
 
   # This description is used to generate tags and improve search results.
