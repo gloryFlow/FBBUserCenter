@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                       FBBUserCenter用户模块工程 cocopods引用
                    DESC
 
-  s.homepage     = "http://EXAMPLE/FBBUserCenter"
+  s.homepage     = "https://github.com/gloryFlow/FBBUserCenter"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
