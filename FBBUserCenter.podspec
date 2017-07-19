@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "UserCenter/FBBUserCenter/FBBUserCenter/Classes/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
+  s.source_files  = "UserCenter/FBBUserCenter/FBBUserCenter/Classes/**/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
