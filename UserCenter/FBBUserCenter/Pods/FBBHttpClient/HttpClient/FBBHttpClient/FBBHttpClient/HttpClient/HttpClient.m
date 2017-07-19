@@ -9,7 +9,7 @@
 #import "HttpClient.h"
 #import <AFNetworking/AFNetworking.h>
 
-#define defaultBaseUrl @"http://192.168.118.74:8888/ndasec/ndc/interfaceservice/ios/api.do"
+#define defaultBaseUrl @"http://192.168.118.74:8888/api/"
 static NSString *mobApiBaseUrl = @"http://apicloud.mob.com/";
 static NSString *anotherApiBaseUrl = @"http://apicloud.mob.com/";
 
@@ -86,7 +86,14 @@ static NSString *anotherApiBaseUrl = @"http://apicloud.mob.com/";
         //获取进度
     } success:^(NSURLSessionDataTask *task, id responseObject) {
         //成功
-        success(responseObject);
+        NSDictionary *responseDic = responseObject;
+        if ([responseObject isKindOfClass:[NSString class]]) {
+            NSData *jsonData = [responseObject dataUsingEncoding:NSUTF8StringEncoding];
+            responseDic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
+        } else if ([responseObject isKindOfClass:[NSData class]]){
+            responseDic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
+        }
+        success(responseDic);
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         //失败
         NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)task.response;
@@ -108,7 +115,14 @@ static NSString *anotherApiBaseUrl = @"http://apicloud.mob.com/";
         //获取进度
     } success:^(NSURLSessionDataTask *task, id responseObject) {
         //成功
-        success(responseObject);
+        NSDictionary *responseDic = responseObject;
+        if ([responseObject isKindOfClass:[NSString class]]) {
+            NSData *jsonData = [responseObject dataUsingEncoding:NSUTF8StringEncoding];
+            responseDic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
+        } else if ([responseObject isKindOfClass:[NSData class]]){
+            responseDic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
+        }
+        success(responseDic);
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         //失败
         NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)task.response;
@@ -146,7 +160,14 @@ static NSString *anotherApiBaseUrl = @"http://apicloud.mob.com/";
         progress(uploadProgress);
     } success:^(NSURLSessionDataTask *task, id responseObject) {
         //请求成功
-        success(responseObject);
+        NSDictionary *responseDic = responseObject;
+        if ([responseObject isKindOfClass:[NSString class]]) {
+            NSData *jsonData = [responseObject dataUsingEncoding:NSUTF8StringEncoding];
+            responseDic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
+        } else if ([responseObject isKindOfClass:[NSData class]]){
+            responseDic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
+        }
+        success(responseDic);
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         //请求失败
         NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)task.response;

@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - FBBHttpClient (0.0.5):
+  - FBBHttpClient (0.0.7):
     - AFNetworking
   - Masonry (1.0.2)
   - MGJRouter (0.9.3)
@@ -31,7 +31,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  FBBHttpClient: 3c5e984aa17f4f720c08f380d3c48912ff675df3
+  FBBHttpClient: 7c2a59a73ace6b2055135e070168289acad01b58
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41

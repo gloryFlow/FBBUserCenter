@@ -1,9 +1,9 @@
 //
 //  HttpMobApi.m
-//  Shundan
+//  demo
 //
 //  Created by Bruce on 2017/2/8.
-//  Copyright © 2017年 VWord. All rights reserved.
+//  Copyright © 2017年 FBBDemo. All rights reserved.
 //
 
 #import "HttpMobApi.h"
