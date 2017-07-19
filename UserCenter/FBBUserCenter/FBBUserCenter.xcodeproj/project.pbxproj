@@ -16,6 +16,8 @@
 		92FC67221F1F3340009861F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FC67201F1F3340009861F1 /* LaunchScreen.storyboard */; };
 		92FC677C1F1F44E4009861F1 /* UserHomePageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC67791F1F44E4009861F1 /* UserHomePageModule.m */; };
 		92FC677D1F1F44E4009861F1 /* UserHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC677B1F1F44E4009861F1 /* UserHomePageViewController.m */; };
+		92FC67BE1F1FAE58009861F1 /* FBBUserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC67BD1F1FAE58009861F1 /* FBBUserSession.m */; };
+		92FC67C11F1FAE8F009861F1 /* FBBUserSessionDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC67C01F1FAE8F009861F1 /* FBBUserSessionDatabase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,10 @@
 		92FC67791F1F44E4009861F1 /* UserHomePageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHomePageModule.m; sourceTree = "<group>"; };
 		92FC677A1F1F44E4009861F1 /* UserHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHomePageViewController.h; sourceTree = "<group>"; };
 		92FC677B1F1F44E4009861F1 /* UserHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHomePageViewController.m; sourceTree = "<group>"; };
+		92FC67BC1F1FAE58009861F1 /* FBBUserSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBUserSession.h; sourceTree = "<group>"; };
+		92FC67BD1F1FAE58009861F1 /* FBBUserSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBUserSession.m; sourceTree = "<group>"; };
+		92FC67BF1F1FAE8F009861F1 /* FBBUserSessionDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBUserSessionDatabase.h; sourceTree = "<group>"; };
+		92FC67C01F1FAE8F009861F1 /* FBBUserSessionDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBUserSessionDatabase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,10 @@
 				92FC67791F1F44E4009861F1 /* UserHomePageModule.m */,
 				92FC677A1F1F44E4009861F1 /* UserHomePageViewController.h */,
 				92FC677B1F1F44E4009861F1 /* UserHomePageViewController.m */,
+				92FC67BC1F1FAE58009861F1 /* FBBUserSession.h */,
+				92FC67BD1F1FAE58009861F1 /* FBBUserSession.m */,
+				92FC67BF1F1FAE8F009861F1 /* FBBUserSessionDatabase.h */,
+				92FC67C01F1FAE8F009861F1 /* FBBUserSessionDatabase.m */,
 			);
 			path = UserCenter;
 			sourceTree = "<group>";
@@ -246,8 +256,10 @@
 			files = (
 				92FC671A1F1F3340009861F1 /* ViewController.m in Sources */,
 				92FC67171F1F3340009861F1 /* AppDelegate.m in Sources */,
+				92FC67C11F1FAE8F009861F1 /* FBBUserSessionDatabase.m in Sources */,
 				92FC677C1F1F44E4009861F1 /* UserHomePageModule.m in Sources */,
 				92FC677D1F1F44E4009861F1 /* UserHomePageViewController.m in Sources */,
+				92FC67BE1F1FAE58009861F1 /* FBBUserSession.m in Sources */,
 				92FC67141F1F3340009861F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
