@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FBBHttpClient.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MGJRouter.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +37,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0D089B15D7BA0673A960357765ED3B85</key>
+		<key>25DA6D1D49D744E55AA3CBD256069D14</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5FA6DC478C11CACC715C9307064CBD18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8DB25B47821AC410CEEEDC43BA1E34A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -48,11 +63,6 @@
 			<true/>
 		</dict>
 		<key>CE7ED3798AC0899BBFD0C9C2CC21981B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DD0D66A01CED4FBE875B2E0D71FFA19B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

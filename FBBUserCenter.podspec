@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FBBUserCenter"
-  s.version      = "0.0.3"
+  s.version      = "0.0.6"
   s.summary      = "FBBUserCenter用户模块工程"
 
   # This description is used to generate tags and improve search results.
@@ -136,5 +136,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "MGJRouter"
+  s.dependency "FBBHttpClient"
 
 end

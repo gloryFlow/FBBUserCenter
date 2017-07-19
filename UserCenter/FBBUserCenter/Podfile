@@ -1,9 +1,13 @@
 platform :ios, '7.0'
 
+source 'https://github.com/gloryFlow/FBBRepositories.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'FBBUserCenter' do
 
+    # 私有仓库
+    pod 'FBBHttpClient'
+    
     # 第三方库
     pod 'Masonry'
     pod 'AFNetworking'

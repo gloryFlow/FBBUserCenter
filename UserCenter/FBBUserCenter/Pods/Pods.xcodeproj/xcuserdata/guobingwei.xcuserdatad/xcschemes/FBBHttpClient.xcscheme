@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '25DA6D1D49D744E55AA3CBD256069D14'
-               BlueprintName = 'Pods-FBBUserCenter'
+               BlueprintIdentifier = '5FA6DC478C11CACC715C9307064CBD18'
+               BlueprintName = 'FBBHttpClient'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-FBBUserCenter.a'>
+               BuildableName = 'libFBBHttpClient.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
