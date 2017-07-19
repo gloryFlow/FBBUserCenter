@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		787B3631B72F1CAB684171DD /* libPods-FBBUserCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDD57CC873B1390A88E0D7F /* libPods-FBBUserCenter.a */; };
 		92FC67141F1F3340009861F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC67131F1F3340009861F1 /* main.m */; };
 		92FC67171F1F3340009861F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC67161F1F3340009861F1 /* AppDelegate.m */; };
 		92FC671A1F1F3340009861F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC67191F1F3340009861F1 /* ViewController.m */; };
 		92FC671D1F1F3340009861F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FC671B1F1F3340009861F1 /* Main.storyboard */; };
 		92FC671F1F1F3340009861F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FC671E1F1F3340009861F1 /* Assets.xcassets */; };
 		92FC67221F1F3340009861F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FC67201F1F3340009861F1 /* LaunchScreen.storyboard */; };
-		92FC67501F1F39EE009861F1 /* UserHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC674F1F1F39EE009861F1 /* UserHomePageViewController.m */; };
-		92FC67531F1F3A10009861F1 /* UserHomePageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC67521F1F3A10009861F1 /* UserHomePageModule.m */; };
+		92FC677C1F1F44E4009861F1 /* UserHomePageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC67791F1F44E4009861F1 /* UserHomePageModule.m */; };
+		92FC677D1F1F44E4009861F1 /* UserHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC677B1F1F44E4009861F1 /* UserHomePageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04CDF77AB2D00D9BEB903309 /* Pods-FBBUserCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBBUserCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBBUserCenter/Pods-FBBUserCenter.release.xcconfig"; sourceTree = "<group>"; };
+		351C4EFED68174630CB27069 /* Pods-FBBUserCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBBUserCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBBUserCenter/Pods-FBBUserCenter.debug.xcconfig"; sourceTree = "<group>"; };
+		6EDD57CC873B1390A88E0D7F /* libPods-FBBUserCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FBBUserCenter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FC670F1F1F3340009861F1 /* FBBUserCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBBUserCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FC67131F1F3340009861F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92FC67151F1F3340009861F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,10 +32,10 @@
 		92FC671E1F1F3340009861F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92FC67211F1F3340009861F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92FC67231F1F3340009861F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92FC674E1F1F39EE009861F1 /* UserHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHomePageViewController.h; sourceTree = "<group>"; };
-		92FC674F1F1F39EE009861F1 /* UserHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHomePageViewController.m; sourceTree = "<group>"; };
-		92FC67511F1F3A10009861F1 /* UserHomePageModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHomePageModule.h; sourceTree = "<group>"; };
-		92FC67521F1F3A10009861F1 /* UserHomePageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHomePageModule.m; sourceTree = "<group>"; };
+		92FC67781F1F44E4009861F1 /* UserHomePageModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHomePageModule.h; sourceTree = "<group>"; };
+		92FC67791F1F44E4009861F1 /* UserHomePageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHomePageModule.m; sourceTree = "<group>"; };
+		92FC677A1F1F44E4009861F1 /* UserHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHomePageViewController.h; sourceTree = "<group>"; };
+		92FC677B1F1F44E4009861F1 /* UserHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHomePageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787B3631B72F1CAB684171DD /* libPods-FBBUserCenter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +55,8 @@
 			children = (
 				92FC67111F1F3340009861F1 /* FBBUserCenter */,
 				92FC67101F1F3340009861F1 /* Products */,
+				D07014533D57BB0DA54B5DF5 /* Pods */,
+				B2B3E2B5A9878568A0BAD20E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,7 +71,7 @@
 		92FC67111F1F3340009861F1 /* FBBUserCenter */ = {
 			isa = PBXGroup;
 			children = (
-				92FC674D1F1F33CC009861F1 /* Classes */,
+				92FC67771F1F44E4009861F1 /* UserCenter */,
 				92FC67151F1F3340009861F1 /* AppDelegate.h */,
 				92FC67161F1F3340009861F1 /* AppDelegate.m */,
 				92FC67181F1F3340009861F1 /* ViewController.h */,
@@ -86,15 +93,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		92FC674D1F1F33CC009861F1 /* Classes */ = {
+		92FC67771F1F44E4009861F1 /* UserCenter */ = {
 			isa = PBXGroup;
 			children = (
-				92FC674E1F1F39EE009861F1 /* UserHomePageViewController.h */,
-				92FC674F1F1F39EE009861F1 /* UserHomePageViewController.m */,
-				92FC67511F1F3A10009861F1 /* UserHomePageModule.h */,
-				92FC67521F1F3A10009861F1 /* UserHomePageModule.m */,
+				92FC67781F1F44E4009861F1 /* UserHomePageModule.h */,
+				92FC67791F1F44E4009861F1 /* UserHomePageModule.m */,
+				92FC677A1F1F44E4009861F1 /* UserHomePageViewController.h */,
+				92FC677B1F1F44E4009861F1 /* UserHomePageViewController.m */,
 			);
-			path = Classes;
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		B2B3E2B5A9878568A0BAD20E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EDD57CC873B1390A88E0D7F /* libPods-FBBUserCenter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D07014533D57BB0DA54B5DF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				351C4EFED68174630CB27069 /* Pods-FBBUserCenter.debug.xcconfig */,
+				04CDF77AB2D00D9BEB903309 /* Pods-FBBUserCenter.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92FC67261F1F3340009861F1 /* Build configuration list for PBXNativeTarget "FBBUserCenter" */;
 			buildPhases = (
+				81F877F26CBA1CB87F06734B /* [CP] Check Pods Manifest.lock */,
 				92FC670B1F1F3340009861F1 /* Sources */,
 				92FC670C1F1F3340009861F1 /* Frameworks */,
 				92FC670D1F1F3340009861F1 /* Resources */,
+				EFC81FE723C34D8FF56603A1 /* [CP] Embed Pods Frameworks */,
+				6AB90976A095DEE3611E62BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +155,7 @@
 				TargetAttributes = {
 					92FC670E1F1F3340009861F1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 64954NJXT3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -163,6 +191,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6AB90976A095DEE3611E62BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBBUserCenter/Pods-FBBUserCenter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81F877F26CBA1CB87F06734B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFC81FE723C34D8FF56603A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBBUserCenter/Pods-FBBUserCenter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92FC670B1F1F3340009861F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -170,9 +246,9 @@
 			files = (
 				92FC671A1F1F3340009861F1 /* ViewController.m in Sources */,
 				92FC67171F1F3340009861F1 /* AppDelegate.m in Sources */,
+				92FC677C1F1F44E4009861F1 /* UserHomePageModule.m in Sources */,
+				92FC677D1F1F44E4009861F1 /* UserHomePageViewController.m in Sources */,
 				92FC67141F1F3340009861F1 /* main.m in Sources */,
-				92FC67531F1F3A10009861F1 /* UserHomePageModule.m in Sources */,
-				92FC67501F1F39EE009861F1 /* UserHomePageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,9 +366,12 @@
 		};
 		92FC67271F1F3340009861F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351C4EFED68174630CB27069 /* Pods-FBBUserCenter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 64954NJXT3;
 				INFOPLIST_FILE = FBBUserCenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FBBUserCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,9 +380,12 @@
 		};
 		92FC67281F1F3340009861F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CDF77AB2D00D9BEB903309 /* Pods-FBBUserCenter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 64954NJXT3;
 				INFOPLIST_FILE = FBBUserCenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FBBUserCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";

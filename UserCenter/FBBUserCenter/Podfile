@@ -1,0 +1,13 @@
+platform :ios, '7.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'FBBUserCenter' do
+
+    # 第三方库
+    pod 'Masonry'
+    pod 'AFNetworking'
+    pod 'SDWebImage'
+    pod 'MGJRouter'
+
+end
