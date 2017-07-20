@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FBBShopCenter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MGJRouter.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,17 +42,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>25DA6D1D49D744E55AA3CBD256069D14</key>
+		<key>166FFA567E0ABA753EAD523F1139380E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C0C2380908C88D568819F807683E1B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23A613592F6AC4C511C21B8ABACD5492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FC4535C78D9152594284A0E6DA0027A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>5FA6DC478C11CACC715C9307064CBD18</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8DB25B47821AC410CEEEDC43BA1E34A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -58,11 +73,6 @@
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CE7ED3798AC0899BBFD0C9C2CC21981B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

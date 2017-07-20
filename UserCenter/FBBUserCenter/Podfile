@@ -7,7 +7,8 @@ target 'FBBUserCenter' do
 
     # 私有仓库
     pod 'FBBHttpClient'
-    
+    pod 'FBBShopCenter'
+
     # 第三方库
     pod 'Masonry'
     pod 'AFNetworking'

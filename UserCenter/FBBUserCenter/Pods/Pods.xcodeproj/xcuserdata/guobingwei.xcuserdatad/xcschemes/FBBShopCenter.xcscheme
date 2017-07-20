@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1C0C2380908C88D568819F807683E1B6'
-               BlueprintName = 'Pods-FBBUserCenter'
+               BlueprintIdentifier = '4FC4535C78D9152594284A0E6DA0027A'
+               BlueprintName = 'FBBShopCenter'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-FBBUserCenter.a'>
+               BuildableName = 'libFBBShopCenter.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

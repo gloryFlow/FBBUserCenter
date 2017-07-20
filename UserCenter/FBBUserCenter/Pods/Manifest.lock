@@ -16,6 +16,9 @@ PODS:
     - AFNetworking/NSURLSession
   - FBBHttpClient (0.0.7):
     - AFNetworking
+  - FBBShopCenter (0.0.7):
+    - FBBHttpClient
+    - MGJRouter
   - Masonry (1.0.2)
   - MGJRouter (0.9.3)
   - SDWebImage (4.0.0):
@@ -25,6 +28,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - FBBHttpClient
+  - FBBShopCenter
   - Masonry
   - MGJRouter
   - SDWebImage
@@ -32,10 +36,11 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FBBHttpClient: 7c2a59a73ace6b2055135e070168289acad01b58
+  FBBShopCenter: d31089cb00e8bffeb6d75bf84bb4fb0eba1a2113
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 8d9024591b47b8a1499c7fc7ff36e1f6130c0152
+PODFILE CHECKSUM: d6bfc05f98f74fbb140c64f41d9eead9d038edba
 
 COCOAPODS: 1.2.1.beta.1
