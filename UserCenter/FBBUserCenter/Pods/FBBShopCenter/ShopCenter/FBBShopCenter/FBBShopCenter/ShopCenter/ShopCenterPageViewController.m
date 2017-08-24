@@ -8,10 +8,12 @@
 
 #import "ShopCenterPageViewController.h"
 #import "HttpMobApi.h"
+#import <MGJRouter/MGJRouter.h>
 
 @interface ShopCenterPageViewController ()
 
 @property (nonatomic, strong) UIButton *shopDemoButton;
+@property (nonatomic, strong) UIButton *userDemoButton;
 
 @end
 
@@ -33,6 +35,17 @@
     _shopDemoButton.layer.borderWidth = 0.5;
     _shopDemoButton.layer.masksToBounds = YES;
     [self.view addSubview:_shopDemoButton];
+    
+    _userDemoButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    _userDemoButton.frame = CGRectMake(100.0, 250.0, 200.0, 50.0);
+    _userDemoButton.backgroundColor = [UIColor purpleColor];
+    [_userDemoButton setTitle:@"从商家模块跳转到用户模块" forState:UIControlStateNormal];
+    _userDemoButton.titleLabel.font = [UIFont systemFontOfSize:14];
+    [_userDemoButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [_userDemoButton addTarget:self action:@selector(userDemoButtonAction) forControlEvents:UIControlEventTouchUpInside];
+    _userDemoButton.layer.borderWidth = 0.5;
+    _userDemoButton.layer.masksToBounds = YES;
+    [self.view addSubview:_userDemoButton];
 }
 
 - (void)shopDemoButtonAction {
@@ -48,6 +61,12 @@
     } failure:^(HttpError *e) {
         NSLog(@"e:%@",e);
     }];
+}
+
+- (void)userDemoButtonAction {
+    [MGJRouter openURL:@"fbb://scheme/userpage?userId=100000"
+          withUserInfo:@{@"navigationVC" : self.navigationController}
+            completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

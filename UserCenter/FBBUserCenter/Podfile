@@ -11,7 +11,6 @@ target 'FBBUserCenter' do
 
     # 第三方库
     pod 'Masonry'
-    pod 'AFNetworking'
     pod 'SDWebImage'
     pod 'MGJRouter'
 
